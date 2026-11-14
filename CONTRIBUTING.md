@@ -14,12 +14,12 @@ This section guides you through submitting a bug report for PyLearn IDE.
 
 #### Before Submitting A Bug Report
 
-- Check the [issues](https://github.com/pylearnide/pylearnide/issues) for a list of current known issues.
-- Perform a [search](https://github.com/pylearnide/pylearnide/issues) to see if the problem has already been reported.
+- Check the [issues](https://github.com/Tyler-Keesee/PyLearn-IDE/issues) for a list of current known issues.
+- Perform a [search](https://github.com/Tyler-Keesee/PyLearn-IDE/issues) to see if the problem has already been reported.
 
 #### How Do I Submit A Good Bug Report?
 
-Bugs are tracked as [GitHub issues](https://github.com/pylearnide/pylearnide/issues).
+Bugs are tracked as [GitHub issues](https://github.com/Tyler-Keesee/PyLearn-IDE/issues).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
@@ -37,12 +37,12 @@ This section guides you through submitting an enhancement suggestion for PyLearn
 
 #### Before Submitting An Enhancement Suggestion
 
-- Check if the enhancement has already been [suggested](https://github.com/pylearnide/pylearnide/issues).
+- Check if the enhancement has already been [suggested](https://github.com/Tyler-Keesee/PyLearn-IDE/issues).
 - Determine which repository the enhancement should be suggested in.
 
 #### How Do I Submit A Good Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/pylearnide/pylearnide/issues). Create an issue and provide the following information:
+Enhancement suggestions are tracked as [GitHub issues](https://github.com/Tyler-Keesee/PyLearn-IDE/issues). Create an issue and provide the following information:
 
 - **Use a clear and descriptive title** for the issue to identify the suggestion.
 - **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
