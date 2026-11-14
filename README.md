@@ -1,10 +1,10 @@
 # PyLearn IDE
 
-![PyLearn IDE Banner](https://via.placeholder.com/1200x300/2c3e50/ffffff?text=PyLearn+IDE+2025)
+![PyLearn IDE logo](assets/logo.png)
 
-[![Version](https://img.shields.io/badge/version-3.5.0-blue.svg)](https://github.com/pylearnide/pylearnide)
+[![Version](https://img.shields.io/badge/version-3.5.0-blue.svg)](https://github.com/Tyler-Keesee/PyLearn-IDE)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/pylearnide/pylearnide?style=social)](https://github.com/pylearnide/pylearnide)
+[![Stars](https://img.shields.io/github/stars/Tyler-Keesee/PyLearn-IDE?style=social)](https://github.com/Tyler-Keesee/PyLearn-IDE)
 
 ## 🚀 Next-Generation Python Learning Environment
 
@@ -46,10 +46,10 @@ PyLearn IDE is a cutting-edge, browser-based Python development environment spec
 
 ```bash
 # Clone the repository
-git clone https://github.com/pylearnide/pylearnide.git
+git clone https://github.com/Tyler-Keesee/PyLearn-IDE.git
 
 # Navigate to the project directory
-cd pylearnide
+cd PyLearn-IDE
 
 # If you have Python installed, you can use a simple HTTP server
 python -m http.server
@@ -58,15 +58,9 @@ python -m http.server
 npx serve
 ```
 
-### Docker Setup
+### Container setup
 
-```bash
-# Build the Docker image
-docker build -t pylearnide .
-
-# Run the container
-docker run -p 8080:80 pylearnide
-```
+This repository does not currently include a Dockerfile. Use the local static-server setup above; do not run a `docker build` command until container packaging has been implemented and tested.
 
 ## 🎮 Usage
 
@@ -98,7 +92,7 @@ for num in numbers:
         print(f"{num} is odd")
 ```
 
-## 🔌 Integration Options
+## 🔌 Integration Options (experimental / planned)
 
 PyLearn IDE supports several integration options:
 
@@ -107,11 +101,11 @@ PyLearn IDE supports several integration options:
 - **Custom Plugins** - Extend functionality with your own plugins
 - **Cloud Storage** - Connect to GitHub, Google Drive, or Dropbox
 
-## 🧩 Advanced Features
+## 🧩 Advanced Features (proposals; availability not verified)
 
 ### AI-Powered Code Assistance
 
-PyLearn IDE includes an AI assistant that can:
+A potential AI assistant could:
 
 - Suggest code improvements
 - Explain code snippets
@@ -141,12 +135,12 @@ pylearn.visualize({
 - Classroom management for educators
 - Code review capabilities
 
-## 🛣️ Roadmap
+## 🛣️ Roadmap (ideas, not shipped functionality)
 
-- **2025 Q1**: WebAssembly execution engine for native performance
-- **2025 Q2**: AR/VR code visualization support
-- **2025 Q3**: Neural interface for code generation (experimental)
-- **2025 Q4**: Quantum computing module support
+- WebAssembly-based execution experiments
+- Expanded code and data visualizations
+- Optional code-assistance features
+- Classroom and collaboration experiments
 
 ## 🤝 Contributing
 
