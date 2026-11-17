@@ -1,5 +1,38 @@
 # PyLearn IDE
 
+## Windows 11 Quick Start (PowerShell)
+
+This project is a **static website**, not a Python package. There is no `pip install`, `requirements.txt`, `venv`, or Node build step. Install [Git](https://git-scm.com/downloads/win) and Python 3 if missing, then open PowerShell. Run **each command individually** in the folder where you want the project downloaded:
+
+```powershell
+git --version
+```
+
+```powershell
+python --version
+```
+
+```powershell
+git clone https://github.com/Tyler-Keesee/PyLearn-IDE.git
+```
+
+```powershell
+Set-Location .\PyLearn-IDE
+```
+
+```powershell
+python -m http.server 8000
+```
+
+With the server running, open **http://localhost:8000/** in Edge or Chrome. Press **Ctrl+C** in PowerShell to stop it.
+
+**What to expect / caveats:** This is a browser-based educational Python IDE, not an installed Python desktop app. It uses browser-delivered libraries; internet access may be required for initial loads.
+
+**Verification:** The HTTP server starting proves only that files are served; it does not prove every browser feature or third-party API is functioning. Open browser Developer Tools (F12) and check Console and Network for failures.
+
+---
+
+
 ![PyLearn IDE logo](assets/logo.png)
 
 [![Version](https://img.shields.io/badge/version-3.5.0-blue.svg)](https://github.com/Tyler-Keesee/PyLearn-IDE)
